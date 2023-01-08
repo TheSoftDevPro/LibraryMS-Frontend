@@ -23,8 +23,12 @@ export default function Header(props) {
           <Nav.Link href="#about">About</Nav.Link>
         </Nav>
         <Nav className="nav-text d-flex">
-          <Nav.Link href="#home">Login</Nav.Link>
-          <Nav.Link href="#features">Signup</Nav.Link>
+            <LinkContainer to = "/login">
+                <Nav.Link>Login</Nav.Link>
+            </LinkContainer>
+            <LinkContainer to = "/signup">
+                <Nav.Link>SignUp</Nav.Link>
+            </LinkContainer>
         </Nav>
       </Container>
     </Navbar>

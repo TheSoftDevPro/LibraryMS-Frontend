@@ -1,0 +1,50 @@
+.login-form{
+    position: absolute;
+    margin-top: 10vh;
+    margin-left: 7.6vw;
+    width: 27vw;
+    height: 60vh;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(35, 0, 85);
+    border-radius: 5ch;
+}
+
+.login-comps{
+    margin-top: 10%;
+    width: 80%;
+    justify-content: center;
+    margin-left: 10%;
+}
+
+.login-input{
+    margin-top: 5%;
+    color: aliceblue;
+}
+
+.login-button{
+    margin-top: 10%;
+    outline-color: aliceblue;
+    color: aliceblue;
+}
+
+.login-heading{
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 300%;
+    margin-top: 10%;
+}
+
+.login-signup{
+    color: aliceblue;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.login-svg{
+    margin-left: 50vw;
+    /* padding-left: 70vw; */
+    height: 80vh;
+    width: 30vw;
+}
