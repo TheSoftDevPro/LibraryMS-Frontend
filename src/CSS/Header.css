@@ -1,0 +1,15 @@
+.nav-style{
+    background-color: rgb(35, 0, 85);
+    font-family: "Georgia";
+}
+
+.nav-heading{
+    font-weight: 500;
+    font-size: xx-large;
+    color:rgb(225, 216, 255);
+}
+
+.nav-text{
+    font-family: "Lucida Console", "Courier New", monospace;
+    align-content: flex-end;
+}

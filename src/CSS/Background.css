@@ -1,0 +1,8 @@
+.backgnd{
+    position: relative;
+    z-index: -1;
+    width:100%;
+    height: 90.6vh;
+    /* margin-top: 10%; */
+    /* object-fit:contain; */
+}

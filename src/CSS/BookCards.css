@@ -1,0 +1,32 @@
+.grid-container{
+    
+    display: grid;
+    grid-template-columns: repeat(2, 45%);
+    grid-template-rows:repeat(2);
+    gap: 50px;
+    position:absolute;
+    height: 95%;
+    /* width: 100%; */
+    overflow-y:scroll;
+    margin-top: 7%;
+    border-radius: 2px;
+
+}
+
+.grid-div{
+    padding-top: 0.5%;
+    width:50%;
+    height:80vh;
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+}
+
+.recs-heading{
+    color: rgb(35, 0, 85);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 300%;
+
+}
