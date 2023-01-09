@@ -1,0 +1,79 @@
+.signup-form{
+    position: absolute;
+    margin-top: 5vh;
+    margin-left: 17.5vw;
+    margin-right: 17.5vw;
+    width: 65vw;
+    height: 78vh;
+    /* text-align: center; */
+    justify-content: center;
+    background-color: rgb(35, 0, 85);
+    border-radius: 5ch;
+}
+
+.signup-comps{
+    margin-top: 2%;
+    width: 85%;
+    justify-content: center;
+    margin-left: 7.5%;
+}
+
+.signup-input{
+    margin-top: 2%;
+    color: aliceblue;
+}
+
+.signup-button{
+    margin-top: 2%;
+    margin-left: 38%;
+    outline-color: aliceblue;
+    color: aliceblue;
+    width: 25%;
+    height: 100%;
+    font-size: large;
+}
+
+.signup-button-gp{
+    justify-content: center;  
+    margin-top: 0%;
+}
+
+.signup-heading{
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 300%;
+}
+
+.signup-heading-div{
+    margin-top: 1%;
+    text-align: center;
+}
+
+.signup-login{
+    color: aliceblue;
+    margin-top: 0%;
+    margin-left: 10%;
+    font-size: medium;
+}
+
+.signup-login-link{
+    color: rgb(255, 74, 74);
+    font-style: italic;
+}
+
+.signup-svg{
+    margin-left: 50vw;
+    height: 80vh;
+    width: 30vw;
+}
+
+.signup-confirm{
+    color: rgb(255, 96, 96);
+}
+
+.signup-div{
+    height: 80vh;
+    width: 100vw;
+    justify-content: center;
+}

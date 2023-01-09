@@ -22,7 +22,7 @@ export default function Login() {
   const login = (e) => {
     e.preventDefault();
     let data = { username: email, password: password };
-    let url = `${BaseURL}/client/login/`;
+    let url = `${BaseURL}/login/`;
     axios
       .post(url, data)
       .then((response) => {

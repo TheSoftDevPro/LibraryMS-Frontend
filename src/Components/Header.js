@@ -16,13 +16,11 @@ export default function Header(props) {
         <LinkContainer to="/">
           <Navbar.Brand className="nav-heading">{props.title}</Navbar.Brand>
         </LinkContainer>
-        <Nav className="nav-text me-auto">
+        <Nav className="nav-text d-flex">
           <LinkContainer to="/explore">
             <Nav.Link to="/explore">Explore</Nav.Link>
           </LinkContainer>
           <Nav.Link href="#about">About</Nav.Link>
-        </Nav>
-        <Nav className="nav-text d-flex">
             <LinkContainer to = "/login">
                 <Nav.Link>Login</Nav.Link>
             </LinkContainer>
